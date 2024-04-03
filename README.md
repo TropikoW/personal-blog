@@ -1,11 +1,11 @@
 # Mi Blog Personal
 
-Este es mi blog personal donde comparto mis pensamientos, experiencias y conocimientos. Aquí encontrarás una variedad de artículos sobre diferentes temas.
+Blog personal el cual publico proyectos personales y algunas referencias a proyectos con empresas.
 
 ## Requisitos
 
-- Node.js (versión X.X.X)
-- npm (versión X.X.X)
+- Node.js (versión >= 20)
+- npm (versión >= 10.2.4)
 
 ## Instalación
 

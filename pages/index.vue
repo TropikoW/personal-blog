@@ -1,9 +1,17 @@
 <template>
-  <Tutorial/>
+  <div>
+    <p>chao</p>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  layouts: 'default',
+  data() {
+    return {
+
+    }
+  }
 }
 </script>

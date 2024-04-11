@@ -8,10 +8,5 @@
 export default {
   name: 'IndexPage',
   layouts: 'default',
-  data() {
-    return {
-
-    }
-  }
 }
 </script>

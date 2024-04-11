@@ -12,7 +12,7 @@
     <NuxLink to="/">
       <span>Contact</span>
     </NuxLink>
-    <input type="text" placeholder="Search">
+    <input type="text" placeholder="Search">    
   </div>
 </template>
 
@@ -32,7 +32,8 @@ export default {
   grid-template-columns: repeat(5, 1fr);
   padding: 1em;
   background-image: url('~/assets/images/document.jpeg');
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 30em;
   width: 100%;
   position: relative;

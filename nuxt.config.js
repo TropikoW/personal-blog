@@ -1,3 +1,4 @@
+const firebaseConfig = require('./backend/environments/loadEnvironments.js');
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -39,32 +40,24 @@ export default {
   ],
 
   firebase: {
-    config: {
-      apiKey: '<apiKey>',
-      authDomain: '<authDomain>',
-      projectId: '<projectId>',
-      storageBucket: '<storageBucket>',
-      messagingSenderId: '<messagingSenderId>',
-      appId: '<appId>',
-      measurementId: '<measurementId>'
-    },
+    config: firebaseConfig,
     services: {
-      auth: true,
+      auth: false,
       firestore: true,
       functions: true,
-      storage: true,
-      database: true,
-      messaging: true,
-      performance: true,
-      appCheck: true,
-      analytics: true,
-      remoteConfig: true,
+      storage: false,
+      database: false,
+      messaging: false,
+      performance: false,
+      appCheck: false,
+      analytics: false,
+      remoteConfig: false,
     }
   },
 
-  env: {
-    FIRE_ENV: process.env.FIRE_ENV
-  },
+  // env: {
+  //   FIRE_ENV: process.env.FIRE_ENV
+  // },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
